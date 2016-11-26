@@ -23,8 +23,8 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home", new { @class = "linkDecoration" })</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home", new { @class = "linkDecoration" })</li>
+                    <li>@Html.ActionLink("Home", "../Home/Index", "Home", new { @class = "linkDecoration" })</li>
+                    <li>@Html.ActionLink("Contact", "../Home/Contact", "Home", new { @class = "linkDecoration" })</li>
                     <li>@Html.ActionLink("Menu", "../Menu_List/Index", "Menu_List", new { @class = "linkDecoration" })</li>
                     <li>@Html.Partial("_LoginPartial")</li>
                 </ul>
@@ -41,7 +41,6 @@
             <p>&copy; @DateTime.Now.Year - Mudrak Patel and Javid Niftaliyev</p>
         </footer>
     </div>
-
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
