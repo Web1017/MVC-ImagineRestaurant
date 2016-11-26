@@ -87,7 +87,7 @@ textarea {
     background-size:cover;
     height:80px;
     width:80px;
-    /*position:fixed;*/
+    position:fixed;
 }
 .img-responsive.facebookIcon:hover{
     cursor:pointer;
@@ -113,6 +113,19 @@ textarea {
 }
 .img-responsive.instagramIcon:hover{
     cursor:pointer;
+}
+.col-md-offset-4.contactDiv{
+    font-size:28px;
+    background-color:white;
+    color:black;
+    margin-right:20px;
+    position:fixed;
+}
+.mapImage{
+    margin-top:100px;
+    height:219px;
+    width:304px;
+    background-image:url(http://designpractica.com/wp-content/uploads/2011/10/your-restaurant-on-google-maps-2.png);
 }
 /**
     Styling for Index.cshtml page for Menu_List view goes here
