@@ -37,7 +37,7 @@ textarea {
     Styling for Index.cshtml page for Home view goes here
 */
 .img-responsive.indexView{
-    background-image: url(../Assets/images/IndexPageWallpaper.jpg);
+    background-image: url(http://vanmag.com/wp-content/uploads/2015/04/header_CactusClub_CarloRicci.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin:-15px -10px -10px 0px;
@@ -144,4 +144,10 @@ th{
     background-repeat: no-repeat;
     margin:-15px -10px -10px 0px;
     background-size:cover;    
+}
+.container.img-responsive.bigItemImage {
+    height:300px;
+    width:450px;
+    opacity:1.0;
+    background-size:cover;
 }

@@ -17,9 +17,6 @@
             <th>
                 @Html.DisplayNameFor(model => model.ItemPrice)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IconImage)
-            </th>
             <th></th>
         </tr>
         @*Loop through the database table and show data on the webpage generated*@
@@ -34,9 +31,6 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.ItemPrice)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.IconImage)
                 </td>
                 <td>
                     @Html.ActionLink("Details", "Details", new { id = item.ItemId }, new { @class = "btn btn-sm btn-info" })
