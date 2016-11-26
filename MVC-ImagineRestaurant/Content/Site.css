@@ -1,4 +1,11 @@
-﻿
+﻿/*
+    Comp229 MVC Restaurant Assignment
+    Mudrak Patel : 300878960
+    Javid Niftaliyeve : 300742916
+
+*/
+
+
 /**
     Google fonts imported
 */
@@ -36,11 +43,11 @@ textarea {
 /*
     Styling for Index.cshtml page for Home view goes here
 */
-.img-responsive.indexView{
+.img-responsive.indexView {
     background-image: url(http://vanmag.com/wp-content/uploads/2015/04/header_CactusClub_CarloRicci.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin:-15px -10px -10px 0px;
+    margin: -15px -10px -10px 0px;
 }
 
 .cafeSocietyText {
@@ -61,106 +68,119 @@ textarea {
     text-shadow: 1px 1px 5px #35bee4, -1px -1px 5px #41d816;
 }
 
-.linkDecoration{
-    font-size:23px;
-    font-family:'Russo One', sans-serif;
+.linkDecoration {
+    font-size: 23px;
+    font-family: 'Russo One', sans-serif;
 }
 /**
     Styling for Contact.cshtml page for Home view goes here
 */
-.img-responsive.contactView{
+.img-responsive.contactView {
     background-image: url(../Assets/images/ContactPageWallpaper.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin:-15px -10px -10px 0px;
+    margin: -15px -10px -10px 0px;
 }
-.contactHeadingText{
+
+.contactHeadingText {
     font-family: Verdana,sans-serif,monospace;
     font-size: 70px;
-    color:white;
+    color: white;
     position: relative;
     z-index: 1000;
     text-shadow: 5px 5px 5px #f808f4, -5px -5px 5px #1620d8;
 }
-.img-responsive.facebookIcon{
-    background-image:url(../Assets/images/facebookIcon.png);
-    background-size:cover;
-    height:80px;
-    width:80px;
-    position:fixed;
+
+.img-responsive.facebookIcon {
+    background-image: url(../Assets/images/facebookIcon.png);
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    position: fixed;
 }
-.img-responsive.facebookIcon:hover{
-    cursor:pointer;
+
+    .img-responsive.facebookIcon:hover {
+        cursor: pointer;
+    }
+
+.img-responsive.twitterIcon {
+    background-image: url(../Assets/images/twitterIcon.png);
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    margin-left: 82px;
+    position: fixed;
 }
-.img-responsive.twitterIcon{
-    background-image:url(../Assets/images/twitterIcon.png);
-    background-size:cover;
-    height:80px;
-    width:80px;
-    margin-left:82px;
-    position:fixed;
+
+    .img-responsive.twitterIcon:hover {
+        cursor: pointer;
+    }
+
+.img-responsive.instagramIcon {
+    background-image: url(../Assets/images/instagramIcon.png);
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    margin-left: 165px;
+    position: fixed;
 }
-.img-responsive.twitterIcon:hover{
-    cursor:pointer;
+
+    .img-responsive.instagramIcon:hover {
+        cursor: pointer;
+    }
+
+.col-md-offset-4.contactDiv {
+    font-size: 28px;
+    background-color: white;
+    color: black;
+    margin-right: 20px;
+    position: fixed;
 }
-.img-responsive.instagramIcon{
-    background-image:url(../Assets/images/instagramIcon.png);
-    background-size:cover;
-    height:80px;
-    width:80px;
-    margin-left:165px;
-    position:fixed;
-}
-.img-responsive.instagramIcon:hover{
-    cursor:pointer;
-}
-.col-md-offset-4.contactDiv{
-    font-size:28px;
-    background-color:white;
-    color:black;
-    margin-right:20px;
-    position:fixed;
-}
-.mapImage{
-    margin-top:100px;
-    height:219px;
-    width:304px;
-    background-image:url(http://designpractica.com/wp-content/uploads/2011/10/your-restaurant-on-google-maps-2.png);
+
+.mapImage {
+    margin-top: 100px;
+    height: 219px;
+    width: 304px;
+    background-image: url(http://designpractica.com/wp-content/uploads/2011/10/your-restaurant-on-google-maps-2.png);
 }
 /**
     Styling for Index.cshtml page for Menu_List view goes here
 */
-.img-responsive.menuPageWallpaper{
-    background-image:url(../Assets/images/MenuPageWallpaper.jpg);
+.img-responsive.menuPageWallpaper {
+    background-image: url(../Assets/images/MenuPageWallpaper.jpg);
     background-repeat: no-repeat;
-    margin:-15px -10px -10px 0px;
-    background-size:cover;
+    margin: -15px -10px -10px 0px;
+    background-size: cover;
 }
-.col-md-offset-1.menuHeaderText{
+
+.col-md-offset-1.menuHeaderText {
     font-family: 'Quicksand', sans-serif;
-    font-size:60px;
-    color:white;
+    font-size: 60px;
+    color: white;
 }
-.table-hover.table-bordered.col-md-offset-2{
-    background-color:white;
-    font-size:20px;
-    opacity:0.85;
+
+.table-hover.table-bordered.col-md-offset-2 {
+    background-color: white;
+    font-size: 20px;
+    opacity: 0.85;
 }
-th{
-    font-size:30px;
+
+th {
+    font-size: 30px;
 }
 /**
     Styling for Details.cshtml page for Menu_List view goes here
 */
 .img-responsive.detailsPageWallpaper {
-    background-image:url(../Assets/images/detailsPageWallpaper.jpg);
+    background-image: url(../Assets/images/detailsPageWallpaper.jpg);
     background-repeat: no-repeat;
-    margin:-15px -10px -10px 0px;
-    background-size:cover;    
+    margin: -15px -10px -10px 0px;
+    background-size: cover;
 }
+
 .container.img-responsive.bigItemImage {
-    height:300px;
-    width:450px;
-    opacity:1.0;
-    background-size:cover;
+    height: 300px;
+    width: 450px;
+    opacity: 1.0;
+    background-size: cover;
 }

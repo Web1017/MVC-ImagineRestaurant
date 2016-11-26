@@ -1,4 +1,8 @@
-﻿@using Microsoft.AspNet.Identity
+﻿@*Comp229 MVC Restaurant Assignment
+    Mudrak  Patel : 300878960
+    Javid Niftaliyeve : 300742916*@
+
+@using Microsoft.AspNet.Identity
 @if (Request.IsAuthenticated)
 {
     using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
